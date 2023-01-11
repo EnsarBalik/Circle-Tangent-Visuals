@@ -990,6 +990,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stack: {fileID: 1254096891}
   total: 3
+  money: {fileID: 8081181475310797041, guid: 738f45f480d32844b8a4679a511fbe62, type: 3}
+  addInterval: 1
 --- !u!1 &1254096889
 GameObject:
   m_ObjectHideFlags: 0
