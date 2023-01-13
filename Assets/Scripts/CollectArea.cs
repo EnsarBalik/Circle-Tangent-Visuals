@@ -23,8 +23,7 @@ public class CollectArea : MonoBehaviour
 
     private void Update()
     {
-        
-        StackMoney();
+        //StackMoney();
     }
 
     public void StackMoney(int addCount = 1)
