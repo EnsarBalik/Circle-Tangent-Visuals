@@ -19,12 +19,14 @@ public class CollectArea : MonoBehaviour
         {
             
             stack.StackMoney(total);
+            
         }
     }
 
     private void Update()
     {
         //StackMoney();
+        
     }
 
     public void StackMoney(int addCount = 1)
@@ -33,6 +35,7 @@ public class CollectArea : MonoBehaviour
         {
             if (total <= 0) return;
             Transform spawnedObject = Instantiate(money).transform;
+            
         }
     }
 }
