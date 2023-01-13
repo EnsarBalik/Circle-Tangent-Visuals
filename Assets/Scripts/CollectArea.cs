@@ -18,6 +18,7 @@ public class CollectArea : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             stack.StackMoney(total);
+            
         }
     }
 
