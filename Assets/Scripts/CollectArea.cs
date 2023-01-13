@@ -17,16 +17,13 @@ public class CollectArea : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            
             stack.StackMoney(total);
-            
         }
     }
 
     private void Update()
     {
         //StackMoney();
-        
     }
 
     public void StackMoney(int addCount = 1)
