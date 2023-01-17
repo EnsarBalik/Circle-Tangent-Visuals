@@ -1473,5 +1473,4 @@ MonoBehaviour:
     type: 3}
   innerCircle: {x: 0, y: 0, z: 0, w: 1}
   outerCircle: {x: 0, y: 0, z: 0, w: 2}
-  tangentCircleRadius: 0
-  degree: 0
+  circleAmount: 0
