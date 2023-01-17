@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class CircleTangent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    protected Vector3 GetRotatedTangent(float degree, float scale)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        double angle = degree * Mathf.Deg2Rad;
+        float x = scale * (float)System.Math.Sin(angle);
+        float z = scale * (float)System.Math.Cos(angle);
+        return new Vector3(x, 0, z);
     }
 }
