@@ -733,7 +733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &783398321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -881,7 +881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1095149343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stack: {fileID: 1254096891}
-  total: 3
+  total: 5
   money: {fileID: 8081181475310797041, guid: 738f45f480d32844b8a4679a511fbe62, type: 3}
   addInterval: 1
 --- !u!1 &1254096889
@@ -1472,5 +1472,5 @@ MonoBehaviour:
   circlePrefab: {fileID: 7055102694910513410, guid: 0c60bc1a296e5c8439e73a9c3eb369b6,
     type: 3}
   innerCircle: {x: 0, y: 0, z: 0, w: 3}
-  outerCircle: {x: 0, y: 0, z: 0, w: 10}
+  outerCircle: {x: 0, y: 0, z: 0, w: 8}
   circleAmount: 32
